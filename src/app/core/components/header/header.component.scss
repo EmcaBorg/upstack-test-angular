@@ -1,0 +1,38 @@
+.btn-default {
+    color: #000;
+    line-height: 1.4;
+    border-radius: 62px;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    padding: 10px 16px;
+    height: 40px;
+    border: 1px solid #e2e2e2;
+    color: black;
+    &:hover {
+      background-color: #e9e9e9 !important;
+    }
+    span {
+      font-family: sans-serif;
+      color: #000;
+    }
+}  
+
+.btn-rounded{
+  padding: 0px;
+  flex-shrink: 0;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-self: flex-start;
+  grid-column-start: 1;
+  .fa-outline{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+  }
+}

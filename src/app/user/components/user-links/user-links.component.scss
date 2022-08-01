@@ -1,0 +1,13 @@
+.fa {
+  color: #fff;
+  &:hover {
+    font-size: 36px;
+    cursor: pointer;
+  }
+}
+
+.fa-outline{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}

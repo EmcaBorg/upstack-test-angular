@@ -1,0 +1,9 @@
+<div class="row mt-3">
+  <div class="col-12">
+    <h3>{{ group.name }}</h3>
+    <div *ngFor="let link of group.links" class="link-btn" (click)="open(link.link)">
+      <p class="text-center">{{ link.label }}</p>
+    </div>
+  </div>
+
+</div>

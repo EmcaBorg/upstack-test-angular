@@ -1,0 +1,32 @@
+h3 {
+  margin: 16px 0px;
+  text-align: center;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.link-btn {
+  margin-bottom: 16px;
+  padding: 16px 20px;
+  transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 30px;
+  &:hover {
+    background-color: #fff;
+    cursor: pointer;
+    > p{
+      color: #143496
+    }
+  }
+  p {
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 14px;
+  }
+}

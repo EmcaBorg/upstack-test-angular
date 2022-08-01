@@ -1,0 +1,5 @@
+<div *ngrxLet="vm$$; let vm">
+  <app-user-info [userInfo]="vm?.user?.info"></app-user-info>
+  <app-user-links [links]="vm?.user?.links!"></app-user-links>
+  <app-links-group *ngFor="let group of vm?.user?.linksGroups!" [group]="group"></app-links-group>
+</div>

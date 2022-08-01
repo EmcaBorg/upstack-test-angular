@@ -1,0 +1,8 @@
+<div class="d-flex justify-content-center pt-4">
+  <ng-container *ngFor="let link of links">
+    <i *ngIf="link.label !=='Support'" class="fa fa-2x fa-outline me-3"
+      [ngClass]="{'fa-instagram': link.label === 'Instagram', 'fa-spotify' : link.label === 'Latest Single', 'fa-youtube-play' : link.label === 'YouTube', 'fa-soundcloud' : link.label === 'Soundcloud' }"
+      aria-hidden="true" (click)="open(link.link)">
+    </i>
+  </ng-container>
+</div>
